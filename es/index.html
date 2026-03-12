@@ -12,7 +12,9 @@
       theme: {
         extend: {
           colors: {
-            brand: { 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd', 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a' }
+            brand: { 400: '#60a5fa', 500: '#3b8eea', 600: '#1185e6', 700: '#0d6ecc' },
+            gold:  { 400: '#e8c56a', 500: '#d4a843', 600: '#b8902e' },
+            surface: { 800: '#141b2d', 850: '#111827', 900: '#0b1120' }
           }
         }
       }
@@ -20,19 +22,19 @@
   </script>
   <link rel="stylesheet" href="/css/site.css">
 </head>
-<body class="bg-white text-gray-900 antialiased">
+<body class="bg-surface-900 text-gray-100 antialiased">
 
   <!-- Nav -->
-  <nav class="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+  <nav class="fixed top-0 inset-x-0 z-50 bg-surface-900/80 backdrop-blur border-b border-white/5">
     <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-      <a href="/es/" class="flex items-center gap-2 text-xl font-bold text-brand-700 tracking-tight">
-        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/><path d="M10 16l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Vortex CX
+      <a href="/es/" class="flex items-center gap-3">
+        <img src="/logo.png" alt="Vortex CX" class="h-10 w-10 rounded-lg">
+        <span class="text-xl font-bold text-white tracking-tight">Vortex CX</span>
       </a>
-      <div class="flex items-center gap-6 text-sm font-medium text-gray-600">
-        <a href="/es/privacidad.html" class="hover:text-brand-600 transition">Privacidad</a>
-        <a href="/es/terminos.html" class="hover:text-brand-600 transition">T&eacute;rminos</a>
-        <a href="/" class="hover:text-brand-600 transition border rounded px-2 py-0.5 text-xs">EN</a>
+      <div class="flex items-center gap-6 text-sm font-medium text-gray-400">
+        <a href="/es/privacidad.html" class="hover:text-white transition">Privacidad</a>
+        <a href="/es/terminos.html" class="hover:text-white transition">T&eacute;rminos</a>
+        <a href="/" class="hover:text-white transition border border-gray-600 rounded px-2 py-0.5 text-xs">EN</a>
       </div>
     </div>
   </nav>
@@ -40,14 +42,17 @@
   <!-- Hero -->
   <section class="pt-32 pb-20 px-6">
     <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+      <div class="flex justify-center mb-8">
+        <img src="/logo.png" alt="Vortex CX" class="h-24 w-24 sm:h-32 sm:w-32 rounded-2xl">
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
         Comunicaci&oacute;n unificada.<br class="hidden sm:block"> Flujos inteligentes.
       </h1>
-      <p class="mt-6 text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
+      <p class="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
         No pierdas nunca el hilo de una conversaci&oacute;n, un compromiso, o lo que un cliente te dijo. Vortex CX mantiene cada llamada, mensaje y correo en un solo lugar &mdash; la IA captura los detalles para que tu equipo no los escriba. Seguimientos autom&aacute;ticos, plantillas, checklists y ventanas de llamada mantienen cada negociaci&oacute;n en movimiento sin dejar que ning&uacute;n prospecto se enfr&iacute;e. Estructura cuando la necesitas, libertad cuando no &mdash; una gu&iacute;a, no una camisa de fuerza.
       </p>
       <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="mailto:hello@vortex-cx.com" class="inline-flex items-center px-8 py-3 rounded-full bg-brand-600 text-white font-semibold text-sm shadow-lg hover:bg-brand-700 transition">
+        <a href="mailto:hello@vortex-cx.com" class="inline-flex items-center px-8 py-3 rounded-full bg-brand-600 text-white font-semibold text-sm shadow-lg shadow-brand-600/25 hover:bg-brand-700 transition">
           Cont&aacute;ctanos
         </a>
       </div>
@@ -55,66 +60,66 @@
   </section>
 
   <!-- How It Works -->
-  <section class="py-20 bg-gray-50 px-6">
+  <section class="py-20 px-6">
     <div class="max-w-5xl mx-auto">
-      <h2 class="text-2xl sm:text-3xl font-bold text-center mb-4">Todo lo que tu equipo necesita, nada que no</h2>
-      <p class="text-gray-500 text-center max-w-2xl mx-auto mb-14">La mayor&iacute;a de las herramientas te abruman con funciones o te fuerzan a seguir un proceso r&iacute;gido. Vortex CX le da a tu equipo exactamente lo que necesita para trabajar clientes con estructura y confianza &mdash; sin estorbar.</p>
+      <h2 class="text-2xl sm:text-3xl font-bold text-center text-white mb-4">Todo lo que tu equipo necesita, nada que no</h2>
+      <p class="text-gray-400 text-center max-w-2xl mx-auto mb-14">La mayor&iacute;a de las herramientas te abruman con funciones o te fuerzan a seguir un proceso r&iacute;gido. Vortex CX le da a tu equipo exactamente lo que necesita para trabajar clientes con estructura y confianza &mdash; sin estorbar.</p>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Todo en Un Solo Lugar</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">WhatsApp, SMS, email, llamadas &mdash; cada conversaci&oacute;n con cada cliente vive en un solo lugar. No m&aacute;s saltar entre apps o perder contexto. Abre el hilo de un cliente y ve la historia completa: qu&eacute; se dijo, cu&aacute;ndo y por qu&eacute; canal.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Todo en Un Solo Lugar</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">WhatsApp, SMS, email, llamadas &mdash; cada conversaci&oacute;n con cada cliente vive en un solo lugar. No m&aacute;s saltar entre apps o perder contexto. Abre el hilo de un cliente y ve la historia completa: qu&eacute; se dijo, cu&aacute;ndo y por qu&eacute; canal.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Flujos que Gu&iacute;an, No Encierran</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Configura tu proceso de ventas una vez: qu&eacute; mensajes enviar, cu&aacute;ndo llamar, qu&eacute; verificar antes de avanzar. Vortex CX mantiene a tu equipo consistente y disciplinado &mdash; ventanas de llamada, checklists, seguimientos autom&aacute;ticos por cualquier canal &mdash; sin encerrar a nadie en un laberinto de pantallas. Tu gente sigue vendiendo a su manera; el sistema solo se asegura de que nada se caiga.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Flujos que Gu&iacute;an, No Encierran</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Configura tu proceso de ventas una vez: qu&eacute; mensajes enviar, cu&aacute;ndo llamar, qu&eacute; verificar antes de avanzar. Vortex CX mantiene a tu equipo consistente y disciplinado &mdash; ventanas de llamada, checklists, seguimientos autom&aacute;ticos por cualquier canal &mdash; sin encerrar a nadie en un laberinto de pantallas. Tu gente sigue vendiendo a su manera; el sistema solo se asegura de que nada se caiga.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Un CRM que se Llena Solo</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Contactos, empresas, oportunidades, pipeline &mdash; todo est&aacute; aqu&iacute;. Pero a diferencia de otros CRMs, no pasas medio d&iacute;a escribiendo datos. La IA captura detalles de las conversaciones y propone actualizaciones &mdash; tu equipo solo confirma. El CRM se mantiene al d&iacute;a porque mantenerlo al d&iacute;a ya no cuesta esfuerzo. &iquest;Ya tienes un CRM? Con&eacute;ctalo y sincroniza en ambas direcciones.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Un CRM que se Llena Solo</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Contactos, empresas, oportunidades, pipeline &mdash; todo est&aacute; aqu&iacute;. Pero a diferencia de otros CRMs, no pasas medio d&iacute;a escribiendo datos. La IA captura detalles de las conversaciones y propone actualizaciones &mdash; tu equipo solo confirma. El CRM se mantiene al d&iacute;a porque mantenerlo al d&iacute;a ya no cuesta esfuerzo. &iquest;Ya tienes un CRM? Con&eacute;ctalo y sincroniza en ambas direcciones.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Email como Canal, No como Silo</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Conecta tu cuenta de Gmail o Microsoft y el email se convierte en un canal m&aacute;s en la conversaci&oacute;n &mdash; al lado de WhatsApp y SMS. Env&iacute;a, recibe y lee email sin salir de Vortex CX. Cuando un cliente confirma una reuni&oacute;n por email o env&iacute;a un documento, la IA lo captura igual que una llamada.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Email como Canal, No como Silo</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Conecta tu cuenta de Gmail o Microsoft y el email se convierte en un canal m&aacute;s en la conversaci&oacute;n &mdash; al lado de WhatsApp y SMS. Env&iacute;a, recibe y lee email sin salir de Vortex CX. Cuando un cliente confirma una reuni&oacute;n por email o env&iacute;a un documento, la IA lo captura igual que una llamada.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Direcciones Inteligentes</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Empieza a escribir una direcci&oacute;n y recibe sugerencias validadas de Google Maps. Sin errores de tipeo, sin dolores de cabeza con el formato. Datos de direcci&oacute;n limpios y confiables para cada contacto &mdash; &uacute;tiles para territorios, &aacute;reas de servicio, o simplemente saber d&oacute;nde est&aacute;n tus clientes.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Direcciones Inteligentes</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Empieza a escribir una direcci&oacute;n y recibe sugerencias validadas de Google Maps. Sin errores de tipeo, sin dolores de cabeza con el formato. Datos de direcci&oacute;n limpios y confiables para cada contacto &mdash; &uacute;tiles para territorios, &aacute;reas de servicio, o simplemente saber d&oacute;nde est&aacute;n tus clientes.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Funciona en tu Tel&eacute;fono</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Una app nativa Android que convierte tu tel&eacute;fono en un hub de negocios. Llamadas y mensajes desde tu SIM se capturan, registran y sincronizan &mdash; para que agentes en campo y equipos m&oacute;viles tengan el mismo historial y soporte de flujos que todos en la oficina.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Funciona en tu Tel&eacute;fono</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Una app nativa Android que convierte tu tel&eacute;fono en un hub de negocios. Llamadas y mensajes desde tu SIM se capturan, registran y sincronizan &mdash; para que agentes en campo y equipos m&oacute;viles tengan el mismo historial y soporte de flujos que todos en la oficina.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center mb-4">
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
           </div>
-          <h3 class="font-semibold text-lg mb-2">Calendario y Reservas</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Agenda reuniones y tareas directo desde una conversaci&oacute;n. Los eventos se sincronizan con tu calendario de Google o Microsoft. Las p&aacute;ginas de reserva permiten que los clientes elijan un horario &mdash; sin emails de ida y vuelta.</p>
+          <h3 class="font-semibold text-lg text-white mb-2">Calendario y Reservas</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Agenda reuniones y tareas directo desde una conversaci&oacute;n. Los eventos se sincronizan con tu calendario de Google o Microsoft. Las p&aacute;ginas de reserva permiten que los clientes elijan un horario &mdash; sin emails de ida y vuelta.</p>
         </div>
 
       </div>
@@ -122,38 +127,38 @@
   </section>
 
   <!-- AI Extraction -->
-  <section class="py-20 px-6">
+  <section class="py-20 px-6 border-t border-white/5">
     <div class="max-w-4xl mx-auto">
       <div class="flex flex-col lg:flex-row gap-12 items-start">
         <div class="flex-1">
-          <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/15 text-gold-400 flex items-center justify-center mb-6">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
           </div>
-          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Tus conversaciones est&aacute;n llenas de datos. La IA los captura por ti.</h2>
-          <p class="text-gray-500 leading-relaxed mb-4">
+          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Tus conversaciones est&aacute;n llenas de datos. La IA los captura por ti.</h2>
+          <p class="text-gray-400 leading-relaxed mb-4">
             Cada llamada, mensaje y email que tu equipo maneja est&aacute; lleno de detalles valiosos &mdash; nombres, tel&eacute;fonos, preferencias, compromisos, pr&oacute;ximos pasos. Hoy, alguien tiene que escribir todo eso en el CRM despu&eacute;s. La mayor&iacute;a de las veces no lo hace. La informaci&oacute;n se pierde, los registros se desactualizan, y los clientes lo notan.
           </p>
-          <p class="text-gray-500 leading-relaxed mb-4">
+          <p class="text-gray-400 leading-relaxed mb-4">
             Vortex CX escucha cada conversaci&oacute;n en cada canal. Las llamadas se graban y transcriben. Emails, mensajes de WhatsApp y SMS se procesan igual. La IA lee todo y extrae los hechos: qui&eacute;n dijo qu&eacute;, qu&eacute; se prometi&oacute;, qu&eacute; cambi&oacute;. No importa por qu&eacute; canal lleg&oacute; la informaci&oacute;n &mdash; todo termina en el mismo lugar.
           </p>
-          <p class="text-gray-500 leading-relaxed">
+          <p class="text-gray-400 leading-relaxed">
             Nada se escribe en los registros del cliente sin la aprobaci&oacute;n de tu equipo. La IA propone, tu gente confirma. Un toque para aceptar, un toque para descartar. El CRM se mantiene preciso porque mantenerlo preciso ya casi no cuesta esfuerzo.
           </p>
         </div>
-        <div class="lg:w-80 shrink-0 bg-gray-50 rounded-2xl p-6 border border-gray-100">
-          <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-400 mb-4">Lo que la IA extrae</h3>
-          <ul class="space-y-3 text-sm text-gray-600">
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Datos de contacto (tel&eacute;fono, email, direcci&oacute;n)</li>
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Preferencias y requisitos del cliente</li>
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Intereses en productos y servicios</li>
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Datos de cumplimiento e identidad</li>
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Compromisos y pr&oacute;ximos pasos</li>
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Relaciones entre contactos</li>
-            <li class="flex items-start gap-2"><span class="text-brand-500 mt-0.5">&#10003;</span> Sentimiento y disposici&oacute;n</li>
+        <div class="lg:w-80 shrink-0 bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-4">Lo que la IA extrae</h3>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Datos de contacto (tel&eacute;fono, email, direcci&oacute;n)</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Preferencias y requisitos del cliente</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Intereses en productos y servicios</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Datos de cumplimiento e identidad</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Compromisos y pr&oacute;ximos pasos</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Relaciones entre contactos</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Sentimiento y disposici&oacute;n</li>
           </ul>
-          <div class="mt-6 pt-4 border-t border-gray-200">
-            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-400 mb-3">Canales procesados</h3>
-            <ul class="space-y-2 text-sm text-gray-600">
+          <div class="mt-6 pt-4 border-t border-white/10">
+            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-3">Canales procesados</h3>
+            <ul class="space-y-2 text-sm text-gray-300">
               <li>Llamadas de voz (transcripci&oacute;n + extracci&oacute;n)</li>
               <li>Hilos de email (Gmail, Microsoft)</li>
               <li>Conversaciones de WhatsApp</li>
@@ -166,72 +171,72 @@
   </section>
 
   <!-- Data Security -->
-  <section class="py-20 bg-gray-50 px-6">
+  <section class="py-20 px-6 border-t border-white/5">
     <div class="max-w-4xl mx-auto">
       <div class="text-center mb-14">
-        <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-6 mx-auto">
+        <div class="w-12 h-12 rounded-xl bg-brand-600/15 text-brand-400 flex items-center justify-center mb-6 mx-auto">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
         </div>
-        <h2 class="text-2xl sm:text-3xl font-bold mb-4">Los datos de tus clientes, bien protegidos</h2>
-        <p class="text-gray-500 max-w-2xl mx-auto">Nos conf&iacute;as la informaci&oacute;n m&aacute;s sensible de tus clientes. Construimos la plataforma desde el d&iacute;a uno para que esa confianza est&eacute; merecida &mdash; no como un checklist, sino como arquitectura.</p>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Los datos de tus clientes, bien protegidos</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">Nos conf&iacute;as la informaci&oacute;n m&aacute;s sensible de tus clientes. Construimos la plataforma desde el d&iacute;a uno para que esa confianza est&eacute; merecida &mdash; no como un checklist, sino como arquitectura.</p>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-8">
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 class="font-semibold text-lg mb-3">B&oacute;veda PII</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Tel&eacute;fonos, emails y direcciones nunca se almacenan junto a los datos de negocio. Viven en una b&oacute;veda encriptada separada (AES-256). El resto del sistema solo ve IDs de referencia an&oacute;nimos &mdash; incluso ante una brecha, no se exponen datos personales.</p>
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-lg text-white mb-3">B&oacute;veda PII</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Tel&eacute;fonos, emails y direcciones nunca se almacenan junto a los datos de negocio. Viven en una b&oacute;veda encriptada separada (AES-256). El resto del sistema solo ve IDs de referencia an&oacute;nimos &mdash; incluso ante una brecha, no se exponen datos personales.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 class="font-semibold text-lg mb-3">Tus Datos Son Solo Tuyos</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Los datos de cada organizaci&oacute;n est&aacute;n aislados a nivel de base de datos. No es un filtro en la app que podr&iacute;a tener un bug &mdash; la base de datos misma lo garantiza. Tus datos son f&iacute;sicamente invisibles para cualquier otra cuenta en la plataforma.</p>
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-lg text-white mb-3">Tus Datos Son Solo Tuyos</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Los datos de cada organizaci&oacute;n est&aacute;n aislados a nivel de base de datos. No es un filtro en la app que podr&iacute;a tener un bug &mdash; la base de datos misma lo garantiza. Tus datos son f&iacute;sicamente invisibles para cualquier otra cuenta en la plataforma.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 class="font-semibold text-lg mb-3">Encriptado de Punta a Punta</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Todo est&aacute; encriptado &mdash; en tr&aacute;nsito y en reposo. Contrase&ntilde;as, tokens, credenciales &mdash; nada se almacena en texto plano. Tus datos est&aacute;n protegidos ya sea que se muevan entre sistemas o est&eacute;n almacenados.</p>
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-lg text-white mb-3">Encriptado de Punta a Punta</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Todo est&aacute; encriptado &mdash; en tr&aacute;nsito y en reposo. Contrase&ntilde;as, tokens, credenciales &mdash; nada se almacena en texto plano. Tus datos est&aacute;n protegidos ya sea que se muevan entre sistemas o est&eacute;n almacenados.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 class="font-semibold text-lg mb-3">Sin Datos Personales en Logs</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Los logs del sistema y reportes de error nunca contienen nombres, tel&eacute;fonos ni emails. Solo IDs an&oacute;nimos. Ni nuestros propios ingenieros pueden ver accidentalmente la informaci&oacute;n personal de tus clientes al resolver problemas.</p>
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-lg text-white mb-3">Sin Datos Personales en Logs</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Los logs del sistema y reportes de error nunca contienen nombres, tel&eacute;fonos ni emails. Solo IDs an&oacute;nimos. Ni nuestros propios ingenieros pueden ver accidentalmente la informaci&oacute;n personal de tus clientes al resolver problemas.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 class="font-semibold text-lg mb-3">Acceso M&iacute;nimo, Control Total</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">Cuando conectas Gmail u otras cuentas, solo pedimos los permisos que realmente necesitamos. Los tokens se encriptan y se usan solo para lo autorizado. Descon&eacute;ctate cuando quieras &mdash; los tokens se revocan y eliminan al instante.</p>
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-lg text-white mb-3">Acceso M&iacute;nimo, Control Total</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Cuando conectas Gmail u otras cuentas, solo pedimos los permisos que realmente necesitamos. Los tokens se encriptan y se usan solo para lo autorizado. Descon&eacute;ctate cuando quieras &mdash; los tokens se revocan y eliminan al instante.</p>
         </div>
 
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-          <h3 class="font-semibold text-lg mb-3">Dise&ntilde;ado para Cumplir</h3>
-          <p class="text-sm text-gray-500 leading-relaxed">GDPR, CCPA, LGPD &mdash; la plataforma est&aacute; dise&ntilde;ada para ayudarte a cumplir tus obligaciones. Retenci&oacute;n de datos configurable, exportaci&oacute;n y eliminaci&oacute;n completa, auditor&iacute;a de cada cambio. Acuerdos de Procesamiento de Datos disponibles bajo solicitud.</p>
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-lg text-white mb-3">Dise&ntilde;ado para Cumplir</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">GDPR, CCPA, LGPD &mdash; la plataforma est&aacute; dise&ntilde;ada para ayudarte a cumplir tus obligaciones. Retenci&oacute;n de datos configurable, exportaci&oacute;n y eliminaci&oacute;n completa, auditor&iacute;a de cada cambio. Acuerdos de Procesamiento de Datos disponibles bajo solicitud.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="py-20 px-6">
+  <section class="py-20 px-6 border-t border-white/5">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-2xl sm:text-3xl font-bold mb-4">Hecho para equipos que hablan con clientes todos los d&iacute;as</h2>
-      <p class="text-gray-500 mb-8">Seguros, bienes ra&iacute;ces, servicios financieros, servicios profesionales &mdash; si tu negocio vive y muere por las relaciones con clientes, Vortex CX se asegura de que nada se pierda, nada se olvide, y tu equipo dedique su tiempo a los clientes en vez de a la captura de datos.</p>
-      <a href="mailto:hello@vortex-cx.com" class="inline-flex items-center px-8 py-3 rounded-full bg-brand-600 text-white font-semibold text-sm shadow-lg hover:bg-brand-700 transition">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Hecho para equipos que hablan con clientes todos los d&iacute;as</h2>
+      <p class="text-gray-400 mb-8">Seguros, bienes ra&iacute;ces, servicios financieros, servicios profesionales &mdash; si tu negocio vive y muere por las relaciones con clientes, Vortex CX se asegura de que nada se pierda, nada se olvide, y tu equipo dedique su tiempo a los clientes en vez de a la captura de datos.</p>
+      <a href="mailto:hello@vortex-cx.com" class="inline-flex items-center px-8 py-3 rounded-full bg-brand-600 text-white font-semibold text-sm shadow-lg shadow-brand-600/25 hover:bg-brand-700 transition">
         Cont&aacute;ctanos
       </a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="border-t border-gray-100 py-10 px-6">
-    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+  <footer class="border-t border-white/5 py-10 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
       <p>&copy; 2026 Ansuken Inc. Todos los derechos reservados.</p>
       <div class="flex gap-6">
-        <a href="/es/privacidad.html" class="hover:text-gray-600 transition">Pol&iacute;tica de Privacidad</a>
-        <a href="/es/terminos.html" class="hover:text-gray-600 transition">T&eacute;rminos de Servicio</a>
-        <a href="mailto:hello@vortex-cx.com" class="hover:text-gray-600 transition">Contacto</a>
+        <a href="/es/privacidad.html" class="hover:text-gray-300 transition">Pol&iacute;tica de Privacidad</a>
+        <a href="/es/terminos.html" class="hover:text-gray-300 transition">T&eacute;rminos de Servicio</a>
+        <a href="mailto:hello@vortex-cx.com" class="hover:text-gray-300 transition">Contacto</a>
       </div>
     </div>
-    <div class="max-w-6xl mx-auto mt-4 text-xs text-gray-300 text-center">
+    <div class="max-w-6xl mx-auto mt-4 text-xs text-gray-600 text-center">
       B&uacute;squeda de direcciones con tecnolog&iacute;a de Google. El uso de informaci&oacute;n recibida de las APIs de Google por parte de Vortex CX cumple con la <a href="https://developers.google.com/terms/api-services-user-data-policy" class="hover:text-gray-400 underline" rel="noopener noreferrer" target="_blank">Pol&iacute;tica de Datos de Usuario de Servicios API de Google</a>, incluyendo los requisitos de Uso Limitado.
     </div>
   </footer>
