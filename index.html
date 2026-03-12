@@ -194,13 +194,13 @@
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <h3 class="font-semibold text-lg text-white mb-3">Encrypted End to End</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Everything is encrypted &mdash; in transit and at rest. Passwords, tokens, credentials &mdash; nothing is ever stored in plain text. Your data is protected whether it&rsquo;s moving between systems or sitting in storage.</p>
+          <h3 class="font-semibold text-lg text-white mb-3">Credentials Never in Plain Text</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Passwords are hashed, OAuth tokens and API keys are encrypted before storage. No credential is ever stored in readable form. All internal communication between platform components is encrypted in transit.</p>
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <h3 class="font-semibold text-lg text-white mb-3">No Personal Data in Logs</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">System logs and error reports never contain names, phone numbers, or email addresses. Only anonymous IDs. Even our own engineers can&rsquo;t accidentally see your clients&rsquo; personal information while troubleshooting.</p>
+          <h3 class="font-semibold text-lg text-white mb-3">PII Encrypted at Rest</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">All personal data is fully encrypted at rest and can only be accessed through the application based on defined access roles. When communicating with external services (email providers, messaging carriers), data travels over TLS-encrypted connections &mdash; but necessarily in readable form at the endpoints.</p>
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
