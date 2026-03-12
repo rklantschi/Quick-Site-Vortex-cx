@@ -194,8 +194,8 @@
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <h3 class="font-semibold text-lg text-white mb-3">Credentials Never in Plain Text</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Passwords are hashed, OAuth tokens and API keys are encrypted before storage. No credential is ever stored in readable form. All internal communication between platform components is encrypted in transit.</p>
+          <h3 class="font-semibold text-lg text-white mb-3">Authentication via Supabase</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">User authentication is handled by Supabase Auth (GoTrue) &mdash; passwords are never stored by our application code. OAuth tokens for connected services like Gmail are stored server-side. Credential encryption at rest is on our roadmap.</p>
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
