@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vortex CX — Unified Communication & Workflow Platform</title>
-  <meta name="description" content="Vortex CX unifies omnichannel communication, workflow automation, and CRM integration into one intelligent platform for teams.">
+  <title>Vortex CX &mdash; Every client conversation, never forgotten.</title>
+  <meta name="description" content="Vortex CX turns every client conversation &mdash; across every channel &mdash; into structured intelligence. Then it tells your team exactly which client needs them today, in what order, for what reason. From first lead capture to closed deal, nothing slips through the cracks.">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -14,6 +14,7 @@
           colors: {
             brand: { 400: '#60a5fa', 500: '#3b8eea', 600: '#1185e6', 700: '#0d6ecc' },
             gold:  { 400: '#e8c56a', 500: '#d4a843', 600: '#b8902e' },
+            green: { 400: '#4ade80', 500: '#22c55e' },
             surface: { 800: '#141b2d', 850: '#111827', 900: '#0b1120' }
           }
         }
@@ -32,6 +33,8 @@
         <span class="text-xl font-bold text-white tracking-tight">Vortex CX</span>
       </a>
       <div class="flex items-center gap-6 text-sm font-medium text-gray-400">
+        <a href="#promises" class="hidden sm:inline hover:text-white transition">Platform</a>
+        <a href="#verticals" class="hidden sm:inline hover:text-white transition">Built for</a>
         <a href="/privacy.html" class="hover:text-white transition">Privacy</a>
         <a href="/terms.html" class="hover:text-white transition">Terms</a>
         <a href="/es/" class="hover:text-white transition border border-gray-600 rounded px-2 py-0.5 text-xs">ES</a>
@@ -40,130 +43,174 @@
   </nav>
 
   <!-- Hero -->
-  <section class="pt-32 pb-20 px-6">
-    <div class="max-w-4xl mx-auto text-center">
+  <section class="pt-32 pb-20 px-6 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-600/5 via-transparent to-transparent pointer-events-none"></div>
+    <div class="max-w-4xl mx-auto text-center relative">
       <div class="flex justify-center mb-8">
         <img src="/logo.png" alt="Vortex CX" class="h-24 w-24 sm:h-32 sm:w-32 rounded-2xl">
       </div>
       <p class="text-xs text-gray-500 uppercase tracking-widest mb-4">by Ansuken LLC</p>
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
-        Unified communication.<br class="hidden sm:block"> Intelligent workflows.
+      <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.05]">
+        Your team talks.<br class="hidden sm:block">
+        <span class="bg-gradient-to-r from-brand-400 via-brand-500 to-gold-500 bg-clip-text text-transparent">We listen, remember,</span><br class="hidden sm:block">
+        <span class="bg-gradient-to-r from-gold-400 via-gold-500 to-brand-500 bg-clip-text text-transparent">and tell them what&rsquo;s next.</span>
       </h1>
-      <p class="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-        Never lose track of a conversation, a commitment, or what a client told you. Vortex CX keeps every call, message, and email in one place &mdash; AI captures the details so your team doesn&rsquo;t type them in. Automated follow-ups, templates, checklists, and call windows keep every deal moving without letting leads go cold. Structure when you need it, freedom when you don&rsquo;t &mdash; a guiding hand, not a straitjacket.
+      <p class="mt-8 text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
+        Vortex CX turns every client conversation &mdash; across every channel &mdash; into structured intelligence. Then it tells your team exactly which client needs them today, in what order, for what reason. From first lead capture to closed deal, nothing slips through the cracks.
       </p>
       <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
         <a href="mailto:hello@vortex-cx.com" class="inline-flex items-center px-8 py-3 rounded-full bg-brand-600 text-white font-semibold text-sm shadow-lg shadow-brand-600/25 hover:bg-brand-700 transition">
           Get in touch
         </a>
+        <a href="#promises" class="inline-flex items-center px-8 py-3 rounded-full border border-white/10 text-white font-semibold text-sm hover:bg-white/5 transition">
+          See how it works
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- How It Works -->
-  <section class="py-20 px-6">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="text-2xl sm:text-3xl font-bold text-center text-white mb-4">Everything your team needs, nothing they don&rsquo;t</h2>
-      <p class="text-gray-400 text-center max-w-2xl mx-auto mb-14">Most tools either overwhelm you with features or force you into a rigid process. Vortex CX gives your team exactly what they need to work clients with structure and confidence &mdash; while staying out of the way.</p>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">One Place for Everything</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">WhatsApp, SMS, email, phone calls &mdash; every conversation with every client lives in one place. No more switching between apps or losing context. Open a client&rsquo;s thread and see the full story: what was said, when, and on which channel.</p>
+  <!-- The Pain — "you know this" -->
+  <section class="py-20 px-6 border-t border-white/5 bg-surface-850/50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white text-center mb-3">You know this story.</h2>
+      <p class="text-gray-400 text-center max-w-2xl mx-auto mb-12">Every team that talks to clients all day lives the same four problems. Vortex CX is built to fix them &mdash; once.</p>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div class="bg-surface-900 rounded-2xl p-6 border border-white/5">
+          <div class="text-gold-500 text-3xl font-bold mb-3">&ldquo;</div>
+          <p class="text-gray-300 leading-relaxed">You promised a client a callback Tuesday &mdash; and remembered Friday.</p>
         </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">Workflows That Guide, Not Cage</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Set up your sales process once: which messages go out, when to call, what to check off before moving forward. Vortex CX keeps your team consistent and disciplined &mdash; call windows, checklists, automated follow-ups across any channel &mdash; without locking anyone into a click-through maze. Your people still sell their way; the system just makes sure nothing falls through the cracks.</p>
+        <div class="bg-surface-900 rounded-2xl p-6 border border-white/5">
+          <div class="text-gold-500 text-3xl font-bold mb-3">&ldquo;</div>
+          <p class="text-gray-300 leading-relaxed">Your agents finish a call and spend ten minutes typing what they already said.</p>
         </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">Keep Your CRM Current</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Already have a CRM? Connect it and keep your records up to date as your team discovers new information through conversations &mdash; AI proposes updates, your people confirm, and changes sync back automatically. Don&rsquo;t have a CRM yet? Use the built-in lightweight CRM for basic client relationship management &mdash; contacts, companies, opportunities, and pipeline.</p>
+        <div class="bg-surface-900 rounded-2xl p-6 border border-white/5">
+          <div class="text-gold-500 text-3xl font-bold mb-3">&ldquo;</div>
+          <p class="text-gray-300 leading-relaxed">A lead came in on Monday via Facebook &mdash; nobody followed up until Thursday.</p>
         </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">Email as a Channel, Not a Silo</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Connect your Gmail or Microsoft account and email becomes just another channel in the conversation &mdash; right next to WhatsApp and SMS. Send, receive, and read email without leaving Vortex CX. When a client confirms a meeting in email or sends a document, AI picks it up the same way it picks up a phone call.</p>
+        <div class="bg-surface-900 rounded-2xl p-6 border border-white/5">
+          <div class="text-gold-500 text-3xl font-bold mb-3">&ldquo;</div>
+          <p class="text-gray-300 leading-relaxed">Three people on your team talked to the same client this week. None of them knew.</p>
         </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">Smart Address Lookup</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Start typing an address and get validated suggestions from Google Maps. No typos, no formatting headaches. Clean, reliable address data for every contact &mdash; useful for territory planning, service areas, or just knowing where your clients are.</p>
-        </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">Works on Your Phone</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">A native Android app that turns your phone into a managed business hub. Calls and texts from your SIM are captured, logged, and synced &mdash; so field agents and mobile teams have the same conversation history and workflow support as everyone in the office.</p>
-        </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-          </div>
-          <h3 class="font-semibold text-lg text-white mb-2">Calendar & Booking</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Schedule meetings and tasks right from a conversation. Events sync with your Google or Microsoft calendar. Booking pages let clients pick a time that works &mdash; no back-and-forth emails needed.</p>
-        </div>
-
       </div>
     </div>
   </section>
 
-  <!-- AI Extraction -->
+  <!-- A day with Vortex CX -->
   <section class="py-20 px-6 border-t border-white/5">
     <div class="max-w-4xl mx-auto">
+      <p class="text-xs text-brand-400 uppercase tracking-widest text-center mb-3">A day in the life</p>
+      <h2 class="text-2xl sm:text-3xl font-bold text-white text-center mb-12">Maria&rsquo;s Tuesday with Vortex CX</h2>
+
+      <div class="space-y-6 max-w-3xl mx-auto">
+        <div class="flex gap-6 items-start">
+          <div class="shrink-0 w-20 text-right">
+            <span class="text-brand-400 font-mono text-sm font-semibold">8:14 AM</span>
+          </div>
+          <div class="flex-1 pb-6 border-l-2 border-brand-600/30 pl-6 -ml-1 relative">
+            <span class="absolute -left-[7px] top-2 w-3 h-3 rounded-full bg-brand-500"></span>
+            <p class="text-gray-300 leading-relaxed">Maria opens Vortex CX. Her ranked list is waiting: <strong class="text-white">six clients who need her today</strong>. The top one &mdash; Anna, a property quote sent Friday, no reply, four days idle, urgency rising. Maria calls. The Companion screen surfaces what they discussed last time. The AI listens. By the time the call ends, the new budget figure is captured, the objection logged, tomorrow&rsquo;s follow-up scheduled, the CRM updated. <strong class="text-white">Maria didn&rsquo;t type a word.</strong></p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 items-start">
+          <div class="shrink-0 w-20 text-right">
+            <span class="text-brand-400 font-mono text-sm font-semibold">9:32 AM</span>
+          </div>
+          <div class="flex-1 pb-6 border-l-2 border-brand-600/30 pl-6 -ml-1 relative">
+            <span class="absolute -left-[7px] top-2 w-3 h-3 rounded-full bg-brand-500"></span>
+            <p class="text-gray-300 leading-relaxed">A new lead lands from a Facebook Ad &mdash; <strong class="text-white">automatically captured, routed into the right campaign workflow</strong>, and assigned to the agent on duty before anyone touches a keyboard. The first WhatsApp template fires within sixty seconds.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 items-start">
+          <div class="shrink-0 w-20 text-right">
+            <span class="text-brand-400 font-mono text-sm font-semibold">11:15 AM</span>
+          </div>
+          <div class="flex-1 pb-6 border-l-2 border-brand-600/30 pl-6 -ml-1 relative">
+            <span class="absolute -left-[7px] top-2 w-3 h-3 rounded-full bg-brand-500"></span>
+            <p class="text-gray-300 leading-relaxed">A tricky compliance question comes up mid-call. Maria pings her colleague Diego over <strong class="text-white">internal chat</strong>. Two clicks later, Diego is on a <strong class="text-white">video conference</strong> with the same client &mdash; pulled in directly from the call &mdash; with full client history already loaded.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 items-start">
+          <div class="shrink-0 w-20 text-right">
+            <span class="text-brand-400 font-mono text-sm font-semibold">2:48 PM</span>
+          </div>
+          <div class="flex-1 pb-6 border-l-2 border-brand-600/30 pl-6 -ml-1 relative">
+            <span class="absolute -left-[7px] top-2 w-3 h-3 rounded-full bg-brand-500"></span>
+            <p class="text-gray-300 leading-relaxed">A client replies on WhatsApp after five days of silence. The workflow <strong class="text-white">moves them back to active automatically</strong>, drops a follow-up task into the agent&rsquo;s queue, and pushes the update to the CRM. No card-dragging. No status update. The system saw the reply.</p>
+          </div>
+        </div>
+
+        <div class="flex gap-6 items-start">
+          <div class="shrink-0 w-20 text-right">
+            <span class="text-brand-400 font-mono text-sm font-semibold">4:50 PM</span>
+          </div>
+          <div class="flex-1 pl-6 -ml-1 relative">
+            <span class="absolute -left-[7px] top-2 w-3 h-3 rounded-full bg-gold-500"></span>
+            <p class="text-gray-300 leading-relaxed">Maria closes her laptop. The compliance audit log has recorded every consent change. The <strong class="text-white">Next Action list refreshes for tomorrow morning</strong> &mdash; ready, ranked, reasoned.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-gray-400 mt-12 max-w-2xl mx-auto italic">What used to take a whole day, with notes scattered across three apps and half-remembered, now runs itself.</p>
+    </div>
+  </section>
+
+  <!-- Three Promises -->
+  <section id="promises" class="py-10 px-6 border-t border-white/5">
+    <div class="max-w-5xl mx-auto text-center pt-10">
+      <p class="text-xs text-gold-400 uppercase tracking-widest mb-3">Three promises Vortex CX keeps</p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">The complexity is ours.<br class="hidden sm:block"> The simplicity is yours.</h2>
+      <p class="text-gray-400 max-w-2xl mx-auto">Underneath, the platform runs an unified communication hub, a workflow engine, an AI extraction pipeline, and a Next Action engine. On the surface, your team experiences three things.</p>
+    </div>
+  </section>
+
+  <!-- Promise 1: Nothing gets lost -->
+  <section class="py-16 px-6">
+    <div class="max-w-5xl mx-auto">
       <div class="flex flex-col lg:flex-row gap-12 items-start">
         <div class="flex-1">
-          <div class="w-12 h-12 rounded-xl bg-gold-500/15 text-gold-400 flex items-center justify-center mb-6">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
+          <p class="text-xs text-brand-400 uppercase tracking-widest mb-3">Promise 1</p>
+          <div class="w-12 h-12 rounded-xl bg-brand-600/15 text-brand-400 flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
           </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Your conversations are full of data. AI picks it up for you.</h2>
+          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Nothing about your client gets lost.</h2>
           <p class="text-gray-400 leading-relaxed mb-4">
-            Every call, message, and email your team handles is full of valuable details &mdash; names, phone numbers, preferences, commitments, next steps. Today, someone has to type all that into the CRM after the fact. Most of the time, they don&rsquo;t. Information gets lost, records go stale, and clients notice.
+            WhatsApp, SMS, email, phone calls, video, voice notes &mdash; every conversation with every client lives in <strong class="text-white">one inbox</strong>. When a client messages you on WhatsApp Monday and calls Wednesday, the agent picks up exactly where the last conversation left off &mdash; even if it wasn&rsquo;t them last time.
           </p>
           <p class="text-gray-400 leading-relaxed mb-4">
-            Vortex CX listens to every conversation across every channel. Calls are recorded and transcribed. Emails, WhatsApp messages, and SMS are all processed the same way. AI reads through everything and pulls out the facts: who said what, what was promised, what changed. It doesn&rsquo;t matter which channel the information came through &mdash; it all ends up in the same place.
+            <strong class="text-white">All your calls, managed from one place.</strong> The only requirement is a SIP-trunking-enabled provider &mdash; bring your own numbers, keep your existing minutes contract, and Vortex CX handles your professional business calling end to end. No PBX, no separate softphone, no parallel telephony stack to learn or pay for. While you&rsquo;re on a call, the <strong class="text-white">Companion screen</strong> shows you everything about the client. Record with one click. Pull a colleague into the call. Pull the client into a video conference, on demand.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            And the AI doesn&rsquo;t miss anything. Every call gets a <strong class="text-white">transcript</strong> (searchable, speaker-identified, PII-redacted), a <strong class="text-white">summary</strong> (instant context for the next conversation), and structured <strong class="text-white">data atoms</strong> (the budget, the objection, the renewal date, the decision-maker&rsquo;s name) attached to the right client.
           </p>
           <p class="text-gray-400 leading-relaxed">
-            Nothing is written to client records without your team&rsquo;s say-so. AI proposes, your people confirm. One tap to accept, one tap to dismiss. The CRM stays accurate because keeping it accurate takes almost no effort.
+            <strong class="text-white">Capture once &mdash; never re-enter, never forget.</strong> The same fact is instantly available to every connected system: your CRM, your workflows, your dashboards, your team. One source of truth, populated automatically from the conversations that already happened.
           </p>
         </div>
-        <div class="lg:w-80 shrink-0 bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-4">What the AI extracts</h3>
+        <div class="lg:w-72 shrink-0 bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-4">Every channel</h3>
           <ul class="space-y-3 text-sm text-gray-300">
-            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Contact details (phone, email, address)</li>
-            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Case and deal details you&rsquo;d normally type into your CRM</li>
-            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Compliance and identity data</li>
-            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Commitments and next steps</li>
-            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Relationships between contacts</li>
-            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Sentiment and disposition</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> WhatsApp (personal &amp; Business API)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> SMS (business line or personal phone)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Email (Gmail, SMTP &mdash; more coming)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Voice calls (browser, no install)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Video conferencing (lightweight, on-demand)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Internal chat (team messaging)</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Voice notes &amp; recordings</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Scheduled meetings &amp; tasks</li>
+            <li class="flex items-start gap-2"><span class="text-brand-400 mt-0.5">&#10003;</span> Mobile app (Android)</li>
           </ul>
           <div class="mt-6 pt-4 border-t border-white/10">
-            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-3">Channels processed</h3>
+            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-3">AI captures</h3>
             <ul class="space-y-2 text-sm text-gray-300">
-              <li>Voice calls (transcription + extraction)</li>
-              <li>Voice memos (mic recordings from phone or computer)</li>
-              <li>Email threads (Gmail, Microsoft)</li>
-              <li>WhatsApp conversations</li>
-              <li>SMS messages</li>
+              <li>Searchable transcripts</li>
+              <li>Conversation summaries</li>
+              <li>Structured data atoms</li>
+              <li>Commitments &amp; next steps</li>
+              <li>Two AI quality tiers</li>
+              <li>Multilingual (EN/ES/PT)</li>
             </ul>
           </div>
         </div>
@@ -171,18 +218,220 @@
     </div>
   </section>
 
-  <!-- Data Security -->
+  <!-- Promise 2: Nothing gets forgotten -->
+  <section class="py-16 px-6 border-t border-white/5 bg-surface-850/30">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-col lg:flex-row-reverse gap-12 items-start">
+        <div class="flex-1">
+          <p class="text-xs text-gold-400 uppercase tracking-widest mb-3">Promise 2</p>
+          <div class="w-12 h-12 rounded-xl bg-gold-500/15 text-gold-400 flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Nothing about your client gets forgotten.</h2>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            Every morning, every agent opens Vortex CX to one ranked list: <em class="text-gray-300">these are the clients who need you today, in this order, for these reasons.</em> That&rsquo;s the <strong class="text-white">Next Action Engine</strong> &mdash; the AI watches every commitment, every client signal, every overdue follow-up, and surfaces one prioritised action per client. Priority decays as time passes, urgency rises as deadlines approach. The lead going cold gets flagged before it does. The promise from yesterday&rsquo;s call gets surfaced when it&rsquo;s due. The quote sent five days ago without reply gets bumped before the agent forgets.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            Behind that list, <strong class="text-white">workflows that adapt to real life</strong> are running. Driven by time and real client interactions &mdash; not blind data entry. Sales pipelines, customer support flows, onboarding sequences, campaign-specific cadences, renewal reminders &mdash; build any workflow your business needs and shape it to the strategy behind it. Reply on WhatsApp after five days of silence? Move the client back to active automatically. Voicemail at end of call? Send a follow-up SMS tomorrow. Client said &ldquo;not interested&rdquo;? Stop all automated contact immediately.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            Workflows orchestrate <strong class="text-white">automated communications, tasks, and alerts</strong> with intelligent timing &mdash; so every client gets an effective, consistent, and situationally aware experience. Built-in safeguards prevent over-contacting, enforce call windows, respect DNC and consent &mdash; without anyone thinking about it.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            <strong class="text-white">Intake sources plug straight in.</strong> Connect Facebook Lead Ads, Google Ads, your landing pages, or any web form &mdash; every new prospect is captured automatically and routed into the right campaign workflow the moment they raise their hand. No CSV exports, no copy-paste, no leads sitting in someone&rsquo;s inbox.
+          </p>
+          <p class="text-gray-400 leading-relaxed">
+            And when human attention isn&rsquo;t available, <strong class="text-white">bots</strong> step in. Voice bots qualify inbound calls, chat bots handle FAQ and book appointments, voicemail bots summarise and tag &mdash; all routed back into the same workflow when escalation is needed.
+          </p>
+        </div>
+        <div class="lg:w-72 shrink-0 bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-4">Next Action Engine</h3>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> One ranked action per client</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Auto-detected commitments</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Urgency rises as deadlines approach</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Overdue items surfaced first</li>
+            <li class="flex items-start gap-2"><span class="text-gold-400 mt-0.5">&#10003;</span> Learns from your team&rsquo;s patterns</li>
+          </ul>
+          <div class="mt-6 pt-4 border-t border-white/10">
+            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-3">Workflow engine</h3>
+            <ul class="space-y-2 text-sm text-gray-300">
+              <li>Visual workflow designer</li>
+              <li>Cadences (SMS, WhatsApp, email)</li>
+              <li>Event-driven rules</li>
+              <li>SLA timers &amp; reminders</li>
+              <li>Multilingual templates</li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/10">
+            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-3">Intake sources</h3>
+            <ul class="space-y-2 text-sm text-gray-300">
+              <li>Facebook Lead Ads</li>
+              <li>Google Ads</li>
+              <li>Landing pages &amp; web forms</li>
+              <li>Inbound calls, SMS, WhatsApp</li>
+              <li>CSV import &amp; CRM sync</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promise 3: Team works as one -->
+  <section class="py-16 px-6 border-t border-white/5">
+    <div class="max-w-5xl mx-auto">
+      <div class="flex flex-col lg:flex-row gap-12 items-start">
+        <div class="flex-1">
+          <p class="text-xs text-green-400 uppercase tracking-widest mb-3">Promise 3</p>
+          <div class="w-12 h-12 rounded-xl bg-green-500/15 text-green-400 flex items-center justify-center mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Your team works as one.</h2>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            Agents stop asking &ldquo;has anyone spoken to this client?&rdquo; They stop typing what they already said. They stop searching three apps for the file someone shared last month. <strong class="text-white">One client, one timeline, every interaction</strong> &mdash; visible to whoever picks up next.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            Internal chat for your team, lightweight video conferencing for quick meetings, and the ability to <strong class="text-white">pull a client into a video conference straight from a phone call</strong> when face-to-face is needed. Field agents on the mobile app see the same conversation history as everyone at their desk.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            <strong class="text-white">Templates that write themselves.</strong> Multi-language message templates auto-fill with whatever the AI captured &mdash; client name, dates, policy details, addresses. Personalised messages in seconds, not minutes. WhatsApp templates go through approval automatically.
+          </p>
+          <p class="text-gray-400 leading-relaxed">
+            And <strong class="text-white">dashboards that show the truth</strong> &mdash; pipeline health, agent activity, communication patterns, data quality. You see what&rsquo;s actually happening, not what people remember to report. When something needs attention, you know &mdash; before the client reminds you.
+          </p>
+        </div>
+        <div class="lg:w-72 shrink-0 bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-4">For the team</h3>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-start gap-2"><span class="text-green-400 mt-0.5">&#10003;</span> Shared subject visibility</li>
+            <li class="flex items-start gap-2"><span class="text-green-400 mt-0.5">&#10003;</span> Internal chat &amp; team messaging</li>
+            <li class="flex items-start gap-2"><span class="text-green-400 mt-0.5">&#10003;</span> Lightweight video conferencing</li>
+            <li class="flex items-start gap-2"><span class="text-green-400 mt-0.5">&#10003;</span> Customer-to-video escalation</li>
+            <li class="flex items-start gap-2"><span class="text-green-400 mt-0.5">&#10003;</span> Mobile app for field agents</li>
+            <li class="flex items-start gap-2"><span class="text-green-400 mt-0.5">&#10003;</span> Roles &amp; permissions</li>
+          </ul>
+          <div class="mt-6 pt-4 border-t border-white/10">
+            <h3 class="font-semibold text-sm uppercase tracking-widest text-gray-500 mb-3">For the manager</h3>
+            <ul class="space-y-2 text-sm text-gray-300">
+              <li>Pipeline health dashboards</li>
+              <li>Agent activity &amp; communication</li>
+              <li>Data quality monitoring</li>
+              <li>Compliance audit log</li>
+              <li>Multi-language template library</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- And the practical realities -->
+  <section class="py-20 px-6 border-t border-white/5">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl font-bold text-center text-white mb-4">And the practical realities</h2>
+      <p class="text-gray-400 text-center max-w-2xl mx-auto mb-14">Beyond the three promises, the platform handles the real-world stuff that makes a difference between a tool you tolerate and one your team actually uses.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-gold-500/15 text-gold-400 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg text-white mb-2">AI Bots &mdash; voice, chat, voicemail</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">After-hours coverage that doesn&rsquo;t feel like a robot. Voice bots qualify inbound calls and book appointments. Chat bots handle FAQ and capture leads from your website. Voicemail bots summarise and tag every voicemail. Escalate to a human the moment it matters.</p>
+        </div>
+
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg text-white mb-2">eSignature, built in</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Send a signing request from any client conversation. Track status (pending, signed, declined) without leaving the platform. Signed documents land in the client&rsquo;s file automatically and become structured data the AI can reference later.</p>
+        </div>
+
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-green-500/15 text-green-400 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg text-white mb-2">Compliance, built in</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">DNC, opt-out, consent, WhatsApp Business windows, email unsubscribe, call windows by time zone &mdash; enforced automatically before any outbound message goes out. Every consent change is logged in an immutable audit trail. Your regulator-ready record, kept without a thought.</p>
+        </div>
+
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-brand-600/15 text-brand-400 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg text-white mb-2">Multilingual &amp; LatAm-ready</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Native English/Spanish/Portuguese code-switching for transcription, extraction, and outbound messaging. Templates exist in every language your customers speak. Built specifically for LatAm insurance, ACA family onboarding, and any market where conversations switch language mid-sentence.</p>
+        </div>
+
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-gold-500/15 text-gold-400 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg text-white mb-2">For agencies &amp; multi-client teams</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">White-label the platform under your brand. Manage multiple client sub-accounts with one set of credentials. Agency dashboards aggregate across clients. Advanced routing, role hierarchy, and per-client billing built in. Pay only for what you use, no per-seat lock-in.</p>
+        </div>
+
+        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
+          <div class="w-10 h-10 rounded-lg bg-green-500/15 text-green-400 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          </div>
+          <h3 class="font-semibold text-lg text-white mb-2">Open platform</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">REST API, webhook builder, and an MCP layer that lets external AI agents consume Vortex CX&rsquo;s intelligence directly. Integrate your CRM, your data warehouse, your AI tooling. Embed Vortex CX widgets inside the systems your team already uses. The platform meets you where you are.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Built for these teams -->
+  <section id="verticals" class="py-20 px-6 border-t border-white/5 bg-surface-850/30">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl font-bold text-center text-white mb-4">Built for teams that talk to clients every day</h2>
+      <p class="text-gray-400 text-center max-w-2xl mx-auto mb-14">Some industries live and die by client relationships. The same problems show up everywhere. Vortex CX speaks each one.</p>
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <div class="bg-surface-900 rounded-2xl p-7 border border-white/5">
+          <div class="w-12 h-12 rounded-xl bg-brand-600/15 text-brand-400 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-semibold text-xl text-white mb-3">Insurance</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">ACA family onboarding, multi-policy households, multilingual books of business. Vortex CX captures policy details, dependents, dates, and decision-maker preferences from every call &mdash; structured, attributed, audit-logged. Compliance enforced before every outbound. Your agents stop typing and start selling.</p>
+        </div>
+
+        <div class="bg-surface-900 rounded-2xl p-7 border border-white/5">
+          <div class="w-12 h-12 rounded-xl bg-gold-500/15 text-gold-400 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <h3 class="font-semibold text-xl text-white mb-3">Real Estate &amp; Financial Services</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Long-cycle deals where every conversation matters and handoffs between agents are inevitable. Subject-360 view ensures the next agent picks up exactly where the last one left off. Next Action Engine surfaces the lead going cold before it does. Templates and esignature close the loop.</p>
+        </div>
+
+        <div class="bg-surface-900 rounded-2xl p-7 border border-white/5">
+          <div class="w-12 h-12 rounded-xl bg-green-500/15 text-green-400 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          </div>
+          <h3 class="font-semibold text-xl text-white mb-3">Marketing Agencies</h3>
+          <p class="text-sm text-gray-400 leading-relaxed">Run multiple clients under one platform with full white-label, sub-accounts, and agency-level dashboards. Pay only for what you use &mdash; no per-seat lock-in. API and MCP access for the integrations your stack needs. Your clients see your brand. You see everything.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Data Security / Built for regulated industries -->
   <section class="py-20 px-6 border-t border-white/5">
     <div class="max-w-4xl mx-auto">
       <div class="text-center mb-14">
         <div class="w-12 h-12 rounded-xl bg-brand-600/15 text-brand-400 flex items-center justify-center mb-6 mx-auto">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
         </div>
-        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Your clients&rsquo; data, locked down tight</h2>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Built for regulated industries</h2>
         <p class="text-gray-400 max-w-2xl mx-auto">You&rsquo;re trusting us with your clients&rsquo; most sensitive information. We built the platform from day one to make sure that trust is deserved &mdash; not as a checkbox, but as architecture.</p>
       </div>
 
-      <div class="grid sm:grid-cols-2 gap-8">
+      <div class="grid sm:grid-cols-2 gap-6">
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
           <h3 class="font-semibold text-lg text-white mb-3">PII Vault</h3>
           <p class="text-sm text-gray-400 leading-relaxed">Phone numbers, emails, and addresses are never stored alongside business data. They live in a separate encrypted vault (AES-256). The rest of the system only sees anonymous reference IDs &mdash; so even if something were breached, no personal data is exposed.</p>
@@ -190,27 +439,17 @@
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
           <h3 class="font-semibold text-lg text-white mb-3">Your Data Is Yours Alone</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Every organization&rsquo;s data is walled off at the database level. It&rsquo;s not a filter in the app that could have a bug &mdash; the database itself enforces it. Your data is physically invisible to every other account on the platform.</p>
-        </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <h3 class="font-semibold text-lg text-white mb-3">Modern Security Standards</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">Two-factor authentication, encrypted credential storage, hashed passwords, and encrypted OAuth tokens are part of the platform&rsquo;s security architecture. We&rsquo;re building to the standards you&rsquo;d expect from a system that handles sensitive client data.</p>
-        </div>
-
-        <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
-          <h3 class="font-semibold text-lg text-white mb-3">PII Encrypted at Rest</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">All personal data is fully encrypted at rest and can only be accessed through the application based on defined access roles. When communicating with external services (email providers, messaging carriers), data travels over TLS-encrypted connections &mdash; but necessarily in readable form at the endpoints.</p>
+          <p class="text-sm text-gray-400 leading-relaxed">Every organisation&rsquo;s data is walled off at the database level. Not a filter in the app that could have a bug &mdash; the database itself enforces it. Your data is physically invisible to every other account on the platform.</p>
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
           <h3 class="font-semibold text-lg text-white mb-3">Minimal Access, Full Control</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">When you connect Gmail or other accounts, we only ask for the permissions we actually need. Tokens are encrypted and used only for what you authorized. Disconnect anytime &mdash; tokens are immediately revoked and deleted.</p>
+          <p class="text-sm text-gray-400 leading-relaxed">When you connect Gmail or other accounts, we only ask for the permissions we actually need. Tokens are encrypted and used only for what you authorised. Disconnect anytime &mdash; tokens are immediately revoked and deleted.</p>
         </div>
 
         <div class="bg-surface-850 rounded-2xl p-6 border border-white/5">
           <h3 class="font-semibold text-lg text-white mb-3">Privacy-Aware by Design</h3>
-          <p class="text-sm text-gray-400 leading-relaxed">We build with privacy regulations in mind. The architecture supports right-to-erasure ("forget me") out of the box &mdash; one action removes a person&rsquo;s data cleanly across the platform. Data retention is configurable, data can be exported or deleted, and changes are logged.</p>
+          <p class="text-sm text-gray-400 leading-relaxed">The architecture supports right-to-erasure (&ldquo;forget me&rdquo;) out of the box &mdash; one action removes a person&rsquo;s data cleanly across the platform. Data retention is configurable, data can be exported or deleted, and changes are logged. Transcripts are PII-redacted before storage.</p>
         </div>
       </div>
     </div>
@@ -219,10 +458,10 @@
   <!-- CTA -->
   <section class="py-20 px-6 border-t border-white/5">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Built for teams that talk to clients every day</h2>
-      <p class="text-gray-400 mb-8">Insurance, real estate, financial services, professional services &mdash; if your business lives and dies by client relationships, Vortex CX makes sure nothing gets lost, nothing gets forgotten, and your team spends their time on clients instead of data entry.</p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Stop losing clients to your own to-do list.</h2>
+      <p class="text-gray-400 mb-8 max-w-2xl mx-auto">If your business lives and dies by client relationships, Vortex CX makes sure nothing gets lost, nothing gets forgotten, and your team spends their time on clients instead of on data entry.</p>
       <a href="mailto:hello@vortex-cx.com" class="inline-flex items-center px-8 py-3 rounded-full bg-brand-600 text-white font-semibold text-sm shadow-lg shadow-brand-600/25 hover:bg-brand-700 transition">
-        Contact us
+        Get in touch
       </a>
     </div>
   </section>
